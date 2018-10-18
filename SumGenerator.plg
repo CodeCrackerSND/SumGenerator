@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SumGenerator - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x418 /fo"Release/SumGenerator.res" /d "NDEBUG" /d "_AFXDLL" "D:\SumGenerator\SumGenerator.rc"" 
+Creating temporary file "C:\Users\Mihai\AppData\Local\Temp\RSP9317.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/SumGenerator.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\SumGenerator\SumGenerator.cpp"
+"D:\SumGenerator\SumGeneratorDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Mihai\AppData\Local\Temp\RSP9317.tmp" 
+Creating temporary file "C:\Users\Mihai\AppData\Local\Temp\RSP9318.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/SumGenerator.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\SumGenerator\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Mihai\AppData\Local\Temp\RSP9318.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/SumGenerator.pdb" /machine:I386 /out:"Release/SumGenerator.exe"  .\Release\StdAfx.obj .\Release\SumGenerator.obj .\Release\SumGeneratorDlg.obj .\Release\SumGenerator.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+SumGenerator.cpp
+SumGeneratorDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SumGenerator.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: SumGenerator - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x418 /fo"Debug/SumGenerator.res" /d "_DEBUG" /d "_AFXDLL" "D:\SumGenerator\SumGenerator.rc"" 
+Creating temporary file "C:\Users\Mihai\AppData\Local\Temp\RSP95A9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/SumGenerator.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\SumGenerator\SumGenerator.cpp"
+"D:\SumGenerator\SumGeneratorDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Mihai\AppData\Local\Temp\RSP95A9.tmp" 
+Creating temporary file "C:\Users\Mihai\AppData\Local\Temp\RSP95AA.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/SumGenerator.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\SumGenerator\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Mihai\AppData\Local\Temp\RSP95AA.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SumGenerator.pdb" /debug /machine:I386 /out:"Debug/SumGenerator.exe" /pdbtype:sept  .\Debug\StdAfx.obj .\Debug\SumGenerator.obj .\Debug\SumGeneratorDlg.obj .\Debug\SumGenerator.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+SumGenerator.cpp
+SumGeneratorDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SumGenerator.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
